@@ -1,14 +1,10 @@
 object pepe {
-    var property resultado = 0
-    var property neto = categoria.cadete()
+    // var property resultado = 0
     // var property sueldo = neto + resultado + presentismo
 
-
-
-
-
-
-
+  method neto(){
+    return (categoria.cadete())
+  }
 
 }
 
@@ -22,15 +18,15 @@ object categoria {
   }
 }
 
+
+
 object bonoPorResultado{
     const montoFijo= 800
     const nulo = 0
 
-    method darBono(empleado, bonoADepositar){
-        // return 
-    }
-
     method bonoPorPorcentaje(empleado){
+        const porcentaje = 0.1 //10%
+
         return empleado.neto()*0.1
     }
 }

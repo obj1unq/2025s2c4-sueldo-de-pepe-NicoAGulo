@@ -6,5 +6,7 @@ describe "Sueldo Pepe" {
 		assert.equals(20000, pepe.neto())
 	}
 
-	
+	test "El bono de pepe es el 10% del neto"{
+		assert.equals(2000, bonoPorResultado.bonoPorPorcentaje(pepe))
+	}
 }
