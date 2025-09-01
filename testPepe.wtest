@@ -2,8 +2,8 @@ import pepe.*
 
 describe "Sueldo Pepe" {
 	
-	test "Test 1" {
-		//TODO: Implementame
+	test "neto de pepe es 20000 por ser cadete" {
+		assert.equals(20000, pepe.neto())
 	}
 
 	
